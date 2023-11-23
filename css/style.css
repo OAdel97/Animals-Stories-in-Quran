@@ -1,0 +1,358 @@
+body{
+    direction: rtl;
+    
+    
+}
+.genlink{
+    margin-left: 30px;
+}
+.searchbar{
+    margin-left: 20px;
+}
+.firstseca{
+    color: #EEF296;
+    transition: 0.5s;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.firstseca:hover{
+    color: #EEF296;
+    transform: scale(1.2);
+    
+}
+.imageheader{
+    width: 100px;
+    height: 90px;
+    border-radius: 50%;
+    outline: 2px solid white;
+}
+.firstsecah1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
+    color: #EEF296;
+}
+.searchbooto{
+    background-color: black;
+    color: #EEF296;
+    border: 2px solid #EEF296;
+}
+
+/****************************************************** 2nd section ******************************************************************/
+
+.secondh5{
+    color: white;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.secondp{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+
+}
+.covereto{
+    background-color: rgb(0, 0, 0, 0.5) !important;
+}
+
+/****************************************************** icons section *************************************************************/
+
+.icons{
+    position: absolute;
+    top: 200px;
+    left: 0;
+    background-color: transparent;
+    position: fixed;
+    z-index: 20;
+    
+}
+.disicon{
+    font-size: 55px;
+    margin-top: 40px;
+}
+.faceicon{
+    color: blue;
+    
+}
+.instaicon{
+    color: rgb(226, 43, 43);
+   
+}
+.tubeicon{
+    color: red;
+    
+ 
+    
+}
+
+ /*********************************************************** 3rd section **********************************************************/
+
+.thirdsection{
+    background-color: #EEF296;
+
+
+}
+ .headerthird{
+    margin-top: 60px;
+    text-align: center;
+    padding: 65px 45px;
+    border-radius: 15px;    
+ }
+ .thirdh1{
+    color: black;
+    font-size: 50px;
+ }
+
+@media(max-width: 576px){
+    .thirdh1{
+        font-size: 25px;
+    }
+}
+
+
+
+ .antbutn{
+    background-color: #EEF296;
+    font-size: 20px;
+ }
+.antdiv{
+    background-color: rgb(46, 46, 46);
+}
+.antp{
+    color: #EEF296;
+}
+
+/************************************************************** bg section **********************************************************/
+
+.backgroundsection{
+    background-image: url(../images/allah.jpg);
+    height: 300px;
+    width: 100%;
+    margin-top: 70px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+@media(max-width: 576px){
+    .backgroundsection{
+        background-position-x: -560px;
+    }
+}
+.liny{
+    background-color: black;
+    height: 3px;
+    width: 250px;
+    margin-right: 630px;
+    margin-top: -40px;
+}
+
+@media(max-width: 567px){
+    .liny{
+        margin-right: 130px;
+    }
+}
+
+/********************************************************* 4th section ************************************************************/
+
+.fourthcontent{
+    margin-top: 60px;
+   
+}
+.fourthparent{
+    margin: auto;
+}
+.picimg{
+    width: 288px;
+    height: 300px;
+}
+.cardgeneral{
+    width: 300px;
+    text-align: center;
+    background-color: rgb(27, 27, 27);
+    width: 288px;
+    color: #EEF296;
+}
+
+@media(max-width: 567px){
+    .crowitacard{
+        margin-right: 60px;
+    }
+}
+
+.crowitacard{
+    position: relative;
+    z-index: 10;
+}
+.crowitacard::after{
+    position: absolute;
+    content: "";
+
+    width: 0%;
+    height: 100%;
+
+    top: 0;
+    left: 0;
+
+    background-color: rgb(128, 128, 128, 0.8);
+    z-index: -1;
+
+    transition: 0.5s;
+}
+.crowitacard:hover::after{
+    width: 100%;
+}
+
+.crowitacard::before{
+    position: absolute;
+    content: "";
+
+    width: 0%;
+    height: 100%;
+
+    top: 0;
+    right: 0;
+
+    background-color: rgb(98, 148, 126, 0.5);
+    z-index: -1;
+
+    transition: 0.5s;
+}
+.crowitacard:hover::before{
+    width: 100%;
+}
+.zorar{
+    background-color: black;
+    color: #EEF296;
+    border: 2px solid #EEF296;
+}
+/******************************************************* details heading ************************************************************/
+
+.deth2{
+    margin-top: 60px;
+    background-color: #EEF296;
+    padding: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+@media(max-width: 567px){
+    .deth2{
+        padding: 15px;
+        font-size: 25px;
+    }
+}
+.detailsheader{
+    text-align: center;
+}
+
+/********************************************************** 5th section *************************************************************/
+
+.crow3{
+        height: 270px;
+    width: 230px;
+    margin-top: 40px;
+    border-radius: 15px;
+    margin-right: 10px;
+    transition: 0.5s;
+}
+.fifthcontent{
+    margin-top: 40px;
+}
+.crowparagraph{
+    margin-right: 20px;
+    color: white;
+}
+.crowhead5{
+    margin-right: 20px;
+    color: white;
+    font-weight: 900;
+    color: #EEF296;
+}
+.grapp{
+    background-color: rgb(43, 43, 43);
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+@media(max-width: 567px){
+    .grapp{
+        width: 100%;
+    }
+}
+.boton{
+    background-color: #EEF296;
+    color: black;
+}
+.grapp:hover .crow3{
+    transform: scale(0.87);
+} 
+
+
+/***************************************************** lineline **********************************************************************/
+
+.lineline{
+    background-color: black;
+    width: 80%;
+    height: 4px;
+    margin: auto;
+    margin-top: 40px;
+}
+.wolf3pic{
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+    border-radius: 15px;
+    position: absolute;
+    right: 0;
+    top: -45px;
+    height: 380px;
+    transition: 0.5s;
+    height: 100%;
+}
+
+@media(max-width: 576px){
+    .wolf3pic{
+        height: 400px;
+        margin-top: 250px;
+    }
+}
+.sixthcontent:hover .wolf3pic{
+    margin-right: 20px;
+}
+.sixthcontent{
+    padding-right: 350px;
+    position: relative;
+    margin-top: 40px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: rgb(30, 30, 30);
+}
+
+.wolf3line{
+    background-color: #EEF296;
+    width: 100px;
+    height: 4px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    transition: 0.5s;
+}
+.sixthcontent:hover .wolf3line{
+    width: 180px;
+} 
+.wolf3p{
+    margin-bottom: 30px;
+    color: white;
+}
+.wolf3btn{
+    margin-bottom: 30px;
+    margin-right: 15px;
+    padding: 15px 20px 15px 20px;
+    border-radius: 15px 0px;
+    border: none;
+    background-color: #EEF296 !important;
+}
+.wolf3h3{
+    color: #EEF296;
+    margin-bottom: 5px;
+}
